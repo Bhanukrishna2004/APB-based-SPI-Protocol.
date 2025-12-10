@@ -1,0 +1,2 @@
+verilog isim_temp "../../tb/Baud_rate_generator_tb.v"
+verilog isim_temp "/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

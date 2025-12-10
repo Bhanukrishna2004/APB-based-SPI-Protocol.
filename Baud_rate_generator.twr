@@ -1,0 +1,231 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/trce
+-intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Baud_rate_generator.twx
+Baud_rate_generator.ncd -o Baud_rate_generator.twr Baud_rate_generator.pcf
+
+Design file:              Baud_rate_generator.ncd
+Physical constraint file: Baud_rate_generator.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (PRELIMINARY 1.06 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock PCLK
+-------------+------------+------------+------------+------------+------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------+------------+------------------+--------+
+spi_mode_i<1>|    0.478(R)|      FAST  |    1.346(R)|      SLOW  |PCLK_BUFGP        |   0.000|
+spiswai_i    |    0.335(R)|      FAST  |    1.977(R)|      SLOW  |PCLK_BUFGP        |   0.000|
+sppr_i<0>    |    7.137(R)|      SLOW  |   -0.592(R)|      FAST  |PCLK_BUFGP        |   0.000|
+sppr_i<1>    |    7.530(R)|      SLOW  |   -0.426(R)|      FAST  |PCLK_BUFGP        |   0.000|
+sppr_i<2>    |    5.955(R)|      SLOW  |   -0.405(R)|      FAST  |PCLK_BUFGP        |   0.000|
+spr_i<0>     |    7.513(R)|      SLOW  |   -0.495(R)|      FAST  |PCLK_BUFGP        |   0.000|
+spr_i<1>     |    7.348(R)|      SLOW  |   -0.555(R)|      FAST  |PCLK_BUFGP        |   0.000|
+spr_i<2>     |    7.346(R)|      SLOW  |   -0.319(R)|      FAST  |PCLK_BUFGP        |   0.000|
+ss_i         |    0.499(R)|      FAST  |    1.806(R)|      SLOW  |PCLK_BUFGP        |   0.000|
+-------------+------------+------------+------------+------------+------------------+--------+
+
+Clock PCLK to Pad
+--------------------+-----------------+------------+-----------------+------------+------------------+--------+
+                    |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination         |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------------+-----------------+------------+-----------------+------------+------------------+--------+
+miso_receive_sclk0_o|        11.608(R)|      SLOW  |         4.029(R)|      FAST  |PCLK_BUFGP        |   0.000|
+miso_receive_sclk_o |        11.656(R)|      SLOW  |         4.054(R)|      FAST  |PCLK_BUFGP        |   0.000|
+mosi_send_sclk0_o   |        11.486(R)|      SLOW  |         3.964(R)|      FAST  |PCLK_BUFGP        |   0.000|
+mosi_send_sclk_o    |        11.599(R)|      SLOW  |         4.022(R)|      FAST  |PCLK_BUFGP        |   0.000|
+sclk_o              |         9.951(R)|      SLOW  |         3.705(R)|      FAST  |PCLK_BUFGP        |   0.000|
+--------------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock PRESET_n to Pad
+--------------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+                    |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                              | Clock  |
+Destination         |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)             | Phase  |
+--------------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+miso_receive_sclk0_o|         9.311(F)|      SLOW  |         3.955(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+miso_receive_sclk_o |         9.349(F)|      SLOW  |         3.979(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+mosi_send_sclk0_o   |         9.189(F)|      SLOW  |         3.890(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+mosi_send_sclk_o    |         9.292(F)|      SLOW  |         3.947(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+sclk_o              |         8.335(F)|      SLOW  |         3.516(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+--------------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+
+Clock cpol_i to Pad
+--------------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+                    |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                              | Clock  |
+Destination         |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)             | Phase  |
+--------------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+miso_receive_sclk0_o|         8.828(F)|      SLOW  |         3.571(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+miso_receive_sclk_o |         8.866(F)|      SLOW  |         3.595(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+mosi_send_sclk0_o   |         8.706(F)|      SLOW  |         3.506(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+mosi_send_sclk_o    |         8.809(F)|      SLOW  |         3.563(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+sclk_o              |         7.852(F)|      SLOW  |         3.132(F)|      FAST  |PRESET_n_pre_sclk_s_AND_1039_o|   0.000|
+--------------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+
+Clock to Setup on destination clock PCLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PCLK           |    3.493|         |         |         |
+PRESET_n       |    0.623|    1.500|         |         |
+cpol_i         |    0.142|    1.500|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PRESET_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PRESET_n       |         |         |    0.749|    0.749|
+cpol_i         |         |         |    0.286|    0.286|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cpol_i
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PRESET_n       |         |         |    1.198|    1.198|
+cpol_i         |         |         |    0.735|    0.735|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------------+---------+
+Source Pad     |Destination Pad      |  Delay  |
+---------------+---------------------+---------+
+PRESET_n       |miso_receive_sclk0_o |    7.033|
+PRESET_n       |miso_receive_sclk_o  |    7.080|
+PRESET_n       |mosi_send_sclk0_o    |    6.911|
+PRESET_n       |mosi_send_sclk_o     |    7.023|
+cpha_i         |miso_receive_sclk0_o |    6.097|
+cpha_i         |miso_receive_sclk_o  |    6.128|
+cpha_i         |mosi_send_sclk0_o    |    5.975|
+cpha_i         |mosi_send_sclk_o     |    6.071|
+cpol_i         |miso_receive_sclk0_o |    6.568|
+cpol_i         |miso_receive_sclk_o  |    6.611|
+cpol_i         |mosi_send_sclk0_o    |    6.446|
+cpol_i         |mosi_send_sclk_o     |    6.554|
+sppr_i<0>      |BaudRateDivisor_o<1> |   10.003|
+sppr_i<0>      |BaudRateDivisor_o<2> |    8.240|
+sppr_i<0>      |BaudRateDivisor_o<3> |    8.636|
+sppr_i<0>      |BaudRateDivisor_o<4> |    9.411|
+sppr_i<0>      |BaudRateDivisor_o<5> |    9.509|
+sppr_i<0>      |BaudRateDivisor_o<6> |    9.669|
+sppr_i<0>      |BaudRateDivisor_o<7> |    9.906|
+sppr_i<0>      |BaudRateDivisor_o<8> |   10.137|
+sppr_i<0>      |BaudRateDivisor_o<9> |   10.152|
+sppr_i<0>      |BaudRateDivisor_o<10>|   10.417|
+sppr_i<0>      |BaudRateDivisor_o<11>|   10.298|
+sppr_i<0>      |miso_receive_sclk0_o |   14.910|
+sppr_i<0>      |miso_receive_sclk_o  |   14.958|
+sppr_i<0>      |mosi_send_sclk0_o    |   14.788|
+sppr_i<0>      |mosi_send_sclk_o     |   14.901|
+sppr_i<1>      |BaudRateDivisor_o<2> |    7.706|
+sppr_i<1>      |BaudRateDivisor_o<3> |    8.432|
+sppr_i<1>      |BaudRateDivisor_o<4> |    9.834|
+sppr_i<1>      |BaudRateDivisor_o<5> |    9.932|
+sppr_i<1>      |BaudRateDivisor_o<6> |   10.092|
+sppr_i<1>      |BaudRateDivisor_o<7> |   10.321|
+sppr_i<1>      |BaudRateDivisor_o<8> |   10.409|
+sppr_i<1>      |BaudRateDivisor_o<9> |   10.424|
+sppr_i<1>      |BaudRateDivisor_o<10>|   10.689|
+sppr_i<1>      |BaudRateDivisor_o<11>|   10.570|
+sppr_i<1>      |miso_receive_sclk0_o |   15.302|
+sppr_i<1>      |miso_receive_sclk_o  |   15.350|
+sppr_i<1>      |mosi_send_sclk0_o    |   15.180|
+sppr_i<1>      |mosi_send_sclk_o     |   15.293|
+sppr_i<2>      |BaudRateDivisor_o<3> |    7.835|
+sppr_i<2>      |BaudRateDivisor_o<4> |    8.141|
+sppr_i<2>      |BaudRateDivisor_o<5> |    8.334|
+sppr_i<2>      |BaudRateDivisor_o<6> |    8.575|
+sppr_i<2>      |BaudRateDivisor_o<7> |    8.804|
+sppr_i<2>      |BaudRateDivisor_o<8> |    8.955|
+sppr_i<2>      |BaudRateDivisor_o<9> |    8.970|
+sppr_i<2>      |BaudRateDivisor_o<10>|    9.235|
+sppr_i<2>      |BaudRateDivisor_o<11>|    9.116|
+sppr_i<2>      |miso_receive_sclk0_o |   13.728|
+sppr_i<2>      |miso_receive_sclk_o  |   13.776|
+sppr_i<2>      |mosi_send_sclk0_o    |   13.606|
+sppr_i<2>      |mosi_send_sclk_o     |   13.719|
+spr_i<0>       |BaudRateDivisor_o<1> |    9.714|
+spr_i<0>       |BaudRateDivisor_o<2> |    8.174|
+spr_i<0>       |BaudRateDivisor_o<3> |    8.570|
+spr_i<0>       |BaudRateDivisor_o<4> |    9.817|
+spr_i<0>       |BaudRateDivisor_o<5> |    9.915|
+spr_i<0>       |BaudRateDivisor_o<6> |   10.075|
+spr_i<0>       |BaudRateDivisor_o<7> |   10.304|
+spr_i<0>       |BaudRateDivisor_o<8> |   10.392|
+spr_i<0>       |BaudRateDivisor_o<9> |   10.407|
+spr_i<0>       |BaudRateDivisor_o<10>|   10.672|
+spr_i<0>       |BaudRateDivisor_o<11>|   10.553|
+spr_i<0>       |miso_receive_sclk0_o |   15.285|
+spr_i<0>       |miso_receive_sclk_o  |   15.333|
+spr_i<0>       |mosi_send_sclk0_o    |   15.163|
+spr_i<0>       |mosi_send_sclk_o     |   15.276|
+spr_i<1>       |BaudRateDivisor_o<1> |    9.352|
+spr_i<1>       |BaudRateDivisor_o<2> |    8.360|
+spr_i<1>       |BaudRateDivisor_o<3> |    8.756|
+spr_i<1>       |BaudRateDivisor_o<4> |    9.329|
+spr_i<1>       |BaudRateDivisor_o<5> |    9.750|
+spr_i<1>       |BaudRateDivisor_o<6> |    9.991|
+spr_i<1>       |BaudRateDivisor_o<7> |   10.220|
+spr_i<1>       |BaudRateDivisor_o<8> |   10.265|
+spr_i<1>       |BaudRateDivisor_o<9> |   10.280|
+spr_i<1>       |BaudRateDivisor_o<10>|   10.545|
+spr_i<1>       |BaudRateDivisor_o<11>|   10.426|
+spr_i<1>       |miso_receive_sclk0_o |   15.120|
+spr_i<1>       |miso_receive_sclk_o  |   15.168|
+spr_i<1>       |mosi_send_sclk0_o    |   14.998|
+spr_i<1>       |mosi_send_sclk_o     |   15.111|
+spr_i<2>       |BaudRateDivisor_o<1> |    9.018|
+spr_i<2>       |BaudRateDivisor_o<2> |    7.833|
+spr_i<2>       |BaudRateDivisor_o<3> |    8.229|
+spr_i<2>       |BaudRateDivisor_o<4> |    9.253|
+spr_i<2>       |BaudRateDivisor_o<5> |    9.479|
+spr_i<2>       |BaudRateDivisor_o<6> |    9.720|
+spr_i<2>       |BaudRateDivisor_o<7> |   10.115|
+spr_i<2>       |BaudRateDivisor_o<8> |   10.346|
+spr_i<2>       |BaudRateDivisor_o<9> |   10.361|
+spr_i<2>       |BaudRateDivisor_o<10>|   10.626|
+spr_i<2>       |BaudRateDivisor_o<11>|   10.507|
+spr_i<2>       |miso_receive_sclk0_o |   15.119|
+spr_i<2>       |miso_receive_sclk_o  |   15.167|
+spr_i<2>       |mosi_send_sclk0_o    |   14.997|
+spr_i<2>       |mosi_send_sclk_o     |   15.110|
+---------------+---------------------+---------+
+
+
+Analysis completed Tue Aug  5 15:06:45 2025 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 764 MB
+
+
+

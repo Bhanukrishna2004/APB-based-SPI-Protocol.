@@ -1,0 +1,2 @@
+verilog work "../../rtl/apb_slave_interface.v"
+verilog work "../../tb/apb_slave_interface_tb.v"

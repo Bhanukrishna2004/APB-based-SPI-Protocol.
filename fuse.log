@@ -1,0 +1,21 @@
+Running: /home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator_tb_isim_beh.exe -prj /home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator_tb_beh.prj work.Baud_rate_generator_tb work.glbl 
+ISim P.68d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 64
+Turning on mult-threading, number of parallel sub-compilation jobs: 128 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/../../rtl/Baud_rate_generator.v" into library work
+Analyzing Verilog file "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/../../tb/Baud_rate_generator_tb.v" into library work
+Analyzing Verilog file "/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95340 KB
+Fuse CPU Usage: 1430 ms
+Compiling module Baud_rate_generator
+Compiling module Baud_rate_generator_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable /home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator_tb_isim_beh.exe
+Fuse Memory Usage: 8520224 KB
+Fuse CPU Usage: 1480 ms
+GCC CPU Usage: 330 ms

@@ -1,0 +1,17 @@
+ISim log file
+Running: /home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/apb_slave_interface_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/apb_slave_interface_tb_isim_beh.wdb 
+ISim P.68d (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Read Addr 0 => Data = 10100101
+Read Addr 1 => Data = 00011000
+Read Addr 2 => Data = 01110111
+Stopped at time : 220 ns : File "/home1/B119/RRakesh/SPI_project_RN/SPI/tb/apb_slave_interface_tb.v" Line 97

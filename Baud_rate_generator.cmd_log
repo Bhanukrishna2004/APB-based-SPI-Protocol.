@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Baud_rate_generator.ngc Baud_rate_generator.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Baud_rate_generator_map.ncd Baud_rate_generator.ngd Baud_rate_generator.pcf 
+par -w -intstyle ise -ol high -mt off Baud_rate_generator_map.ncd Baud_rate_generator.ncd Baud_rate_generator.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Baud_rate_generator.twx Baud_rate_generator.ncd -o Baud_rate_generator.twr Baud_rate_generator.pcf 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/BRG/Baud_rate_generator.syr" 

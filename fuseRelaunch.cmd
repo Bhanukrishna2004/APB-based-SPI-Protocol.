@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/apb_slave_interface_tb_isim_beh.exe" -prj "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/apb_slave_interface_tb_beh.prj" "work.apb_slave_interface_tb" "work.glbl" 

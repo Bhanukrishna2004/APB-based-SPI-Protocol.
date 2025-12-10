@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin64" product="ISE" version="14.6">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Tue Aug  5 15:05:42 2025">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="LD_LIBRARY_PATH"/>
+          <item stringID="value" value="/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//lib/lin64:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/lib/lin64:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/lib/lin64:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/common/lib/lin64"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/PlanAhead"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/"/>
+        </row>
+        <row stringID="row" value="4">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK"/>
+        </row>
+        <row stringID="row" value="5">
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//bin/lin64:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/bin/lin64:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/sysgen/util:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE/../../../DocNav:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/PlanAhead/bin:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/bin/lin64:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/gnu/microblaze/lin/bin:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/gnu/arm/lin/bin:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/common/bin/lin64:/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022/vc_static/T-2022.06/bin:/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/bin:/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/bin:/home/cad/eda/SYNOPSYS/Design_Compiler_2022.03/syn/T-2022.03-SP4/bin:/home/cad/eda/Mentor_Graphics/Questasim/questasim/bin:/home1/B119//RRakesh/.local/bin:/home1/B119//RRakesh/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin:/opt/dell/srvadmin/bin:/opt/thinlinc/bin:/opt/thinlinc/sbin"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="RedHatEnterprise"/>
+        <item stringID="User_EnvOsrelease" value="Red Hat Enterprise Linux release 8.10 (Ootpa)"/>
+      </item>
+      <item stringID="User_EnvHost" value="mavenserver-RH3"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="Intel(R) Xeon(R) Gold 6338 CPU @ 2.00GHz"/>
+          <item stringID="speed" value="3200.000 MHz"/>
+        </row>
+      </table>
+    </section>
+    <task stringID="NGDBUILD_OPTION_SUMMARY">
+      <section stringID="NGDBUILD_OPTION_SUMMARY">
+        <item DEFAULT="None" label="-intstyle" stringID="NGDBUILD_intstyle" value="ise"/>
+        <item DEFAULT="None" label="-dd" stringID="NGDBUILD_output_dir" value="_ngo"/>
+        <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xa7a100t-csg324-2I"/>
+      </section>
+    </task>
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="0"/>
+      </section>
+      <section stringID="NGDBUILD_PRE_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_BUFGP" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="13"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDPE" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="12"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LDC" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="13"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="10"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="18"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="42"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="37"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="17"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="42"/>
+      </section>
+      <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="13"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDPE" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="12"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUFG" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LDC" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="13"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="10"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="18"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="42"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="37"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="17"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="42"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+        <section stringID="NGDBUILD_CORE_INSTANCES"/>
+      </section>
+    </task>
+  </application>
+
+</document>

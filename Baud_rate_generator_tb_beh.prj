@@ -1,0 +1,3 @@
+verilog work "../../rtl/Baud_rate_generator.v"
+verilog work "../../tb/Baud_rate_generator_tb.v"
+verilog work "/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/spi_apb_interface.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/spi_apb_interface.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/spi_apb_interface.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/spi_apb_interface.syr" 
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/spi_apb_interface.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/Apb_slave_interface/spi_apb_interface.syr" 
