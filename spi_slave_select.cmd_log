@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/spi_slave_select/spi_slave_select.xst" -ofn "/home1/B119/RRakesh/SPI_project_RN/SPI/sim/spi_slave_select/spi_slave_select.syr" 

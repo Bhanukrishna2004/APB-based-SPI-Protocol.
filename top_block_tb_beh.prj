@@ -1,0 +1,7 @@
+verilog work "../../rtl/spi_slave_select.v"
+verilog work "../../rtl/spi_shifter.v"
+verilog work "../../rtl/Baud_rate_generator.v"
+verilog work "../../rtl/apb_slave_interface.v"
+verilog work "../../rtl/top_block.v"
+verilog work "../../tb/top_block_tb.v"
+verilog work "/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

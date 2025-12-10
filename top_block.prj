@@ -1,0 +1,5 @@
+verilog work "../../rtl/spi_slave_select.v"
+verilog work "../../rtl/spi_shifter.v"
+verilog work "../../rtl/Baud_rate_generator.v"
+verilog work "../../rtl/apb_slave_interface.v"
+verilog work "../../rtl/top_block.v"

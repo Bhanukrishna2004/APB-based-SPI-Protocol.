@@ -1,0 +1,3 @@
+verilog isim_temp "../../rtl/spi_slave_select.v"
+verilog isim_temp "../../tb/spi_slave_select_tb.v"
+verilog isim_temp "/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

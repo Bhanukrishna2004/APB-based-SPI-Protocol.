@@ -1,0 +1,7 @@
+verilog isim_temp "../../rtl/spi_slave_select.v"
+verilog isim_temp "../../rtl/spi_shifter.v"
+verilog isim_temp "../../rtl/Baud_rate_generator.v"
+verilog isim_temp "../../rtl/apb_slave_interface.v"
+verilog isim_temp "../../rtl/top_block.v"
+verilog isim_temp "../../tb/top_block_tb.v"
+verilog isim_temp "/home/cad/eda/Xilinx_14.6/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

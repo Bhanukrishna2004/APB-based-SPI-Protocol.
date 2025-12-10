@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home1/B119/RRakesh/SPI_project_RN/SPI/sim/top_module/top_block_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_block_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_block_tb/DUT/B4/data_mosi_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_mosi_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mosi_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/ss_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ss_o</obj_property>
+         <obj_property name="ObjectShortName">ss_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/sclk_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_o</obj_property>
+         <obj_property name="ObjectShortName">sclk_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/spi_interrupt_request_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_interrupt_request_o</obj_property>
+         <obj_property name="ObjectShortName">spi_interrupt_request_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/mosi_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_o</obj_property>
+         <obj_property name="ObjectShortName">mosi_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PREADY_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PREADY_o</obj_property>
+         <obj_property name="ObjectShortName">PREADY_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PSLVERR_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PSLVERR_o</obj_property>
+         <obj_property name="ObjectShortName">PSLVERR_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PRDATA_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PRDATA_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_o[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PRESET_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PRESET_n</obj_property>
+         <obj_property name="ObjectShortName">PRESET_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PWRITE_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PWRITE_i</obj_property>
+         <obj_property name="ObjectShortName">PWRITE_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PSEL_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PSEL_i</obj_property>
+         <obj_property name="ObjectShortName">PSEL_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PENABLE_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PENABLE_i</obj_property>
+         <obj_property name="ObjectShortName">PENABLE_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/miso_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_i</obj_property>
+         <obj_property name="ObjectShortName">miso_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PADDR_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PADDR_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PADDR_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/PWDATA_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PWDATA_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PWDATA_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group71" type="group">
+      <obj_property name="label">BRD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_block_tb/DUT/B1/PCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/PRESET_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PRESET_n</obj_property>
+         <obj_property name="ObjectShortName">PRESET_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/spi_mode_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_mode_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_mode_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/spiswai_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spiswai_i</obj_property>
+         <obj_property name="ObjectShortName">spiswai_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/sppr_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sppr_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sppr_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/spr_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spr_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">spr_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/cpol_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpol_i</obj_property>
+         <obj_property name="ObjectShortName">cpol_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/cpha_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpha_i</obj_property>
+         <obj_property name="ObjectShortName">cpha_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/ss_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ss_i</obj_property>
+         <obj_property name="ObjectShortName">ss_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/BaudRateDivisor_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">BaudRateDivisor_o[11:0]</obj_property>
+         <obj_property name="ObjectShortName">BaudRateDivisor_o[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/pre_sclk_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pre_sclk_s</obj_property>
+         <obj_property name="ObjectShortName">pre_sclk_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/sclk_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_o</obj_property>
+         <obj_property name="ObjectShortName">sclk_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/miso_receive_sclk_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_receive_sclk_o</obj_property>
+         <obj_property name="ObjectShortName">miso_receive_sclk_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/miso_receive_sclk0_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_receive_sclk0_o</obj_property>
+         <obj_property name="ObjectShortName">miso_receive_sclk0_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/mosi_send_sclk_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_send_sclk_o</obj_property>
+         <obj_property name="ObjectShortName">mosi_send_sclk_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/mosi_send_sclk0_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_send_sclk0_o</obj_property>
+         <obj_property name="ObjectShortName">mosi_send_sclk0_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B1/count_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count_s[11:0]</obj_property>
+         <obj_property name="ObjectShortName">count_s[11:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group90" type="group">
+      <obj_property name="label">ss</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_block_tb/DUT/B2/PRESET_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PRESET_n</obj_property>
+         <obj_property name="ObjectShortName">PRESET_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/spi_mode_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_mode_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_mode_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/mstr_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mstr_i</obj_property>
+         <obj_property name="ObjectShortName">mstr_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/spiswai_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spiswai_i</obj_property>
+         <obj_property name="ObjectShortName">spiswai_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/PCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/send_data_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">send_data_i</obj_property>
+         <obj_property name="ObjectShortName">send_data_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/BaudRateDivisor_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">BaudRateDivisor_i[11:0]</obj_property>
+         <obj_property name="ObjectShortName">BaudRateDivisor_i[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/tip_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tip_o</obj_property>
+         <obj_property name="ObjectShortName">tip_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/ss_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ss_o</obj_property>
+         <obj_property name="ObjectShortName">ss_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/receive_data_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">receive_data_o</obj_property>
+         <obj_property name="ObjectShortName">receive_data_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/count_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">count_s[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/target_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">target_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">target_s[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B2/rcv_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rcv_s</obj_property>
+         <obj_property name="ObjectShortName">rcv_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group258" type="group">
+      <obj_property name="label">ASI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PRESET_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PRESET_n</obj_property>
+         <obj_property name="ObjectShortName">PRESET_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PWRITE_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PWRITE_i</obj_property>
+         <obj_property name="ObjectShortName">PWRITE_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PSEL_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PSEL_i</obj_property>
+         <obj_property name="ObjectShortName">PSEL_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PENABLE_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PENABLE_i</obj_property>
+         <obj_property name="ObjectShortName">PENABLE_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/ss_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ss_i</obj_property>
+         <obj_property name="ObjectShortName">ss_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/receive_data_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">receive_data_i</obj_property>
+         <obj_property name="ObjectShortName">receive_data_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/tip_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tip_i</obj_property>
+         <obj_property name="ObjectShortName">tip_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PADDR_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PADDR_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PADDR_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PWDATA_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PWDATA_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PWDATA_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/miso_data_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_data_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">miso_data_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PREADY_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PREADY_o</obj_property>
+         <obj_property name="ObjectShortName">PREADY_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PSLVERR_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PSLVERR_o</obj_property>
+         <obj_property name="ObjectShortName">PSLVERR_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spi_interrupt_request_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_interrupt_request_o</obj_property>
+         <obj_property name="ObjectShortName">spi_interrupt_request_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/mstr_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mstr_o</obj_property>
+         <obj_property name="ObjectShortName">mstr_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/cpol_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpol_o</obj_property>
+         <obj_property name="ObjectShortName">cpol_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/cpha_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpha_o</obj_property>
+         <obj_property name="ObjectShortName">cpha_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/lsbfe_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lsbfe_o</obj_property>
+         <obj_property name="ObjectShortName">lsbfe_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spiswai_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spiswai_o</obj_property>
+         <obj_property name="ObjectShortName">spiswai_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spr_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spr_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">spr_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/sppr_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sppr_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sppr_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spie" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spie</obj_property>
+         <obj_property name="ObjectShortName">spie</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spif" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spif</obj_property>
+         <obj_property name="ObjectShortName">spif</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/sptef" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sptef</obj_property>
+         <obj_property name="ObjectShortName">sptef</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/modf" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">modf</obj_property>
+         <obj_property name="ObjectShortName">modf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/modfen" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">modfen</obj_property>
+         <obj_property name="ObjectShortName">modfen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">spe</obj_property>
+         <obj_property name="ObjectShortName">spe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/ssoe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ssoe</obj_property>
+         <obj_property name="ObjectShortName">ssoe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/sptie" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sptie</obj_property>
+         <obj_property name="ObjectShortName">sptie</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/mask1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mask1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mask1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/mask2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mask2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mask2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/wr_enb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_enb</obj_property>
+         <obj_property name="ObjectShortName">wr_enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/rd_enb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_enb</obj_property>
+         <obj_property name="ObjectShortName">rd_enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/send_data_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">send_data_o</obj_property>
+         <obj_property name="ObjectShortName">send_data_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/PRDATA_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PRDATA_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_o[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/mosi_data_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_data_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mosi_data_o[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spi_mode_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_mode_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_mode_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/STATE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/next_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/next_mode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">next_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_mode[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/SPI_CR_1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SPI_CR_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_CR_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/SPI_CR_2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SPI_CR_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_CR_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/SPI_BR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SPI_BR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_BR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/SPI_SR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SPI_SR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_SR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/SPI_DR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SPI_DR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_DR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/IDLE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/SETUP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SETUP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SETUP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/ENABLE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ENABLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ENABLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spi_run" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_run[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_run[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spi_wait" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_wait[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_wait[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B3/spi_stop" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">spi_stop[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_stop[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group310" type="group">
+      <obj_property name="label">SHIFTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_block_tb/DUT/B4/PCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/PRESET_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PRESET_n</obj_property>
+         <obj_property name="ObjectShortName">PRESET_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/ss_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ss_i</obj_property>
+         <obj_property name="ObjectShortName">ss_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/send_data_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">send_data_i</obj_property>
+         <obj_property name="ObjectShortName">send_data_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/lsbfe_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lsbfe_i</obj_property>
+         <obj_property name="ObjectShortName">lsbfe_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/cpha_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpha_i</obj_property>
+         <obj_property name="ObjectShortName">cpha_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/cpol_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpol_i</obj_property>
+         <obj_property name="ObjectShortName">cpol_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/miso_receive_sclk_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_receive_sclk_i</obj_property>
+         <obj_property name="ObjectShortName">miso_receive_sclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/miso_receive_sclk0_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_receive_sclk0_i</obj_property>
+         <obj_property name="ObjectShortName">miso_receive_sclk0_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/mosi_send_sclk_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_send_sclk_i</obj_property>
+         <obj_property name="ObjectShortName">mosi_send_sclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/mosi_send_sclk0_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_send_sclk0_i</obj_property>
+         <obj_property name="ObjectShortName">mosi_send_sclk0_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/miso_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">miso_i</obj_property>
+         <obj_property name="ObjectShortName">miso_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/receive_data_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">receive_data_i</obj_property>
+         <obj_property name="ObjectShortName">receive_data_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/mosi_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mosi_o</obj_property>
+         <obj_property name="ObjectShortName">mosi_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/data_miso_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_miso_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_miso_o[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/shift_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/temp_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">temp_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/count" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">count[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/count1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">count1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/count2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">count2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_block_tb/DUT/B4/count3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">count3[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
